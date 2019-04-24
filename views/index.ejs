@@ -1,11 +1,89 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+
+<head>
+  <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><%= title %></title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <!--Colorbox - a lightweight customizable lightbox plugin for jQuery-->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jackmoore/colorbox/master/example1/colorbox.css">
+</head>
+
+<body>
+  <!--
+  <h1><%= title %></h1>
+  <div><%= author %></div>
+  -->
+
+  <div>
+    <h2>You are cordially invited<br />to the launch</h2><br />
+    <h3><i>of the</i></h3>
+    <p class="new">NEW</p><br />
+    <p class="company">COMPANY</p><br />
+    <p class="website">WEBSITE</p>
+    <p class="main">Lorem ipsum dolor sit amet, vix suas liber conclusionemque eu. Ad quo esse<br />
+      purto eros, nemore volutpat ut quo, copiosae concludaturque nam in.</p>
+  </div>
+
+  <hr>
+
+  <p class="main">AD EST ODIO NOSTER</p>
+
+  <ul>
+    <li>Ex vis amet graeci accumsan</li>
+    <li>Civious iracundia quo ad</li>
+    <li>Eu impetus feugiat civibus qui</li>
+    <li>Mel in mucius argumentum, an accumsan petentium vim</li>
+    <li>Vim at rationibus interesset</li>
+  </ul>
+
+  <footer>
+    <div class="wrapper">
+      <h4>GET YOUR FOOT IN THE DOOR.</h4>
+      <p>Know the moment our new website goes live.</p>
+    </div>
+
+    <form class="form-inline">
+      <input type="name" id="name" placeholder="Name">
+      <input type="email" id="email" placeholder="Email">
+
+      <button type="submit">SUBMIT</button>
+    </form>
+
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://cdn.rawgit.com/jackmoore/colorbox/master/jquery.colorbox-min.js"></script>
+  <script>
+    /*
+    setTimeout(function () {
+      $.colorbox({
+        html: `<div>
+                <h2>You are cordially invited<br />to the launch</h2><br />
+                <h3><i>of the</i></h3>
+                <p class="new">New</p> <br />
+                <p class="company">company</p> <br />
+                <p class="website">website</p>
+                <p class="main">Lorem ipsum dolor sit amet, vix suas liber conclusionemque eu. Ad quo esse<br />
+                  purto eros, nemore volutpat ut quo, copiosae concludaturque nam in.</p>
+              </div>
+              <hr>
+              <p class="main">AD EST ODIO NOSTER</p>
+              <ul>
+                <li>Ex vis amet graeci accumsan</li>
+                <li>Civious iracundia quo ad</li>
+                <li>Eu impetus feugiat civibus qui</li>
+                <li>Mel in mucius argumentum, an accumsan petentium vim</li>
+                <li>Vim at rationibus interesset</li>
+              </ul>`,
+        className: "cta",
+        width: 1000,
+        height: 1000
+      });
+    }, 10);
+    */
+  </script>
+</body>
+
 </html>
