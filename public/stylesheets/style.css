@@ -1,3 +1,22 @@
+header {
+  padding-top: 50px;
+}
+
+.close {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.btn-close {
+  color: #a01735;
+  background-color: #fff;
+  border-width: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 25px;  
+}
+
 h2 {
   color: dimgray;
   font-family: Arial, Helvetica, sans-serif;
@@ -50,6 +69,9 @@ h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   text-align: center;
+  max-width: 480px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 hr {
@@ -78,7 +100,7 @@ ul li::before {
   color: #a01735;
   font-weight: bold;
   display: inline-block; /* To add space between the bullet and the text */ 
-  width: 1em; /* Also needed for space*/
+  width: 1.5em; /* Also needed for space*/
   margin-left: -1em; /* Also needed for space */
 }
 
@@ -105,6 +127,7 @@ h4 {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
+  justify-content: center;
 }
 
 .form-inline input {
@@ -135,4 +158,24 @@ h4 {
   .form-inline {
     flex-direction: column;
   }
+}
+
+.disclosure {
+  color: rgb(209, 209, 209);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: left;
+  max-width: 420px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.disclosure::before {
+  content: "\25A0";
+  color: black;
+  border: .3px solid #000;
+  background-color: #000;
+  display: inline-block;
+  width: 1em;
+  margin-right: 3px;
 }
