@@ -10,21 +10,10 @@
   <link rel="stylesheet" href="https://cdn.rawgit.com/jackmoore/colorbox/master/example1/colorbox.css">
 </head>
 
-<header>
-
-  <div class="close">
-    <button type="button" class="btn-close" id="btn-close" aria-label="close">
-      &#9747
-    </button>
-  </div>
-
-</header>
-
 <body>
   <!--
   <h1><%= title %></h1>
   <div><%= author %></div>
-  -->
 
   <div>
     <h2>You are cordially invited<br />to the launch</h2><br />
@@ -67,7 +56,7 @@
     </p>
 
   </footer>
-
+  -->
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="https://cdn.rawgit.com/jackmoore/colorbox/master/jquery.colorbox-min.js"></script>
   <script>
@@ -120,14 +109,17 @@
               </footer>`,
         className: "cta",
         width: 1000,
-        height: 1000
+        height: 1000,
+        closeButton: false
       });
-    }, 300);
 
-    colorbox = jQuery.colorbox;
-    jQuery(".btn-close").click(function () {
-      colorbox.close();
-    });
+      colorbox = jQuery.colorbox;
+      jQuery(".btn-close").click(function () {
+        colorbox.close();
+      });
+    }, 3000);
+
+
 
   </script>
 </body>
