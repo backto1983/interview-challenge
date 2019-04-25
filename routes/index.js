@@ -6,7 +6,8 @@ router.get('/', function (req, res, next) {
   res.render('index',
     {
       title: 'Interview challenge',
-      author: 'by Henrique Ornellas de Oliveira'
+      author: 'by Henrique Ornellas de Oliveira',
+      countdown: '3, 2, 1...'
     });
 });
 
