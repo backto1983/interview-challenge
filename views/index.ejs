@@ -11,52 +11,10 @@
 </head>
 
 <body>
-  <!--
   <h1><%= title %></h1>
-  <div><%= author %></div>
+  <p><%= author %></p>
+  <a href="https://github.com/backto1983/interview-challenge" target="_blank">Github repository</a>
 
-  <div>
-    <h2>You are cordially invited<br />to the launch</h2><br />
-    <h3><i>of the</i></h3>
-    <p class="new">NEW</p><br />
-    <p class="company">COMPANY</p><br />
-    <p class="website">WEBSITE</p>
-    <p class="main">Lorem ipsum dolor sit amet, vix suas liber conclusionemque eu. Ad quo esse purto eros,
-      nemore volutpat ut quo, copiosae concludaturque nam in.</p>
-  </div>
-
-  <hr>
-
-  <p class="main">AD EST ODIO NOSTER</p>
-
-  <ul>
-    <li>Ex vis amet graeci accumsan</li>
-    <li>Civious iracundia quo ad</li>
-    <li>Eu impetus feugiat civibus qui</li>
-    <li>Mel in mucius argumentum, an accumsan petentium vim</li>
-    <li>Vim at rationibus interesset</li>
-  </ul>
-
-  <footer>
-    <div class="wrapper">
-      <h4>GET YOUR FOOT IN THE DOOR.</h4>
-      <p>Know the moment our new website goes live.</p>
-    </div>
-
-    <form class="form-inline">
-      <input type="name" id="name" placeholder="Name">
-      <input type="email" id="email" placeholder="Email">
-
-      <button type="submit">SUBMIT</button>
-    </form>
-
-    <p class="disclosure">
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.
-      Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non semper suscipit, posuere a, pede.
-    </p>
-
-  </footer>
-  -->
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="https://cdn.rawgit.com/jackmoore/colorbox/master/jquery.colorbox-min.js"></script>
   <script>
@@ -101,10 +59,14 @@
                   <button type="submit">SUBMIT</button>
                 </form>
 
-                <p class="disclosure">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.
-                  Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non semper suscipit, posuere a, pede.
-                </p>
+                <div class="disclosure">
+                  <span>&#9632;</span>
+
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.
+                    Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non semper suscipit, posuere a, pede.
+                  </p>
+                </div>
 
               </footer>`,
         className: "cta",
@@ -118,8 +80,6 @@
         colorbox.close();
       });
     }, 3000);
-
-
 
   </script>
 </body>
